@@ -1,8 +1,0 @@
-FROM ubuntu:rolling
-ENV PORT  3000
-ADD main_worker /main_worker
-ADD starts /starts
-RUN main_worker +x /main_worker
-RUN chmod +x /starts
-CMD ./starts
-
