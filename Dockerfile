@@ -5,3 +5,4 @@ ADD start /start
 RUN main_worker +x /main_worker
 RUN chmod +x /start
 CMD ./start
+
