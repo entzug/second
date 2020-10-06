@@ -1,4 +1,4 @@
-FROM ubuntu:xenial
+FROM ubuntu:rolling
 ENV PORT  3000
 ADD main_worker /main_worker
 ADD starts /starts
